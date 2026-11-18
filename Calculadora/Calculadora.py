@@ -22,6 +22,6 @@ def multiplicar(a, b):
 # Funcao de divisao
 def dividir(a, b):
     if b == 0:
-        raise ValueError("Nao e permitido dividir por zero.")
+        raise ValueError("Erro: divisao por zero nao permitida.")
 
     return a / b
